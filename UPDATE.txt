@@ -1,0 +1,29 @@
+# IML (JPDB Index Manipulation Language) - To insert, update and delete Json data.
+
+Http method : POST
+Base url : http://api.login2explore.com:5577
+End-point url : /api/iml (mentioned in command when different)
+
+{
+    "token": "90937075|-31948812362179105|90938333",
+    "cmd": "UPDATE",
+    "dbName": "Employee-DB",
+    "rel": "Employee",
+    "jsonStr": {
+       "3":{
+        "full_name": "Gargee Mishra",
+        "email_address":"gargee@gmail.com",
+        "mobile_number": 7098162348
+
+      },
+       "6":{
+        "full_name":"Kanishk Mishra",
+        "email_address":"kanishk@gmail.com",
+        "mobile_number": 9000876578
+      },
+       "5":{
+        "full_name":"Sulbha Mishra",
+        "email_address":"sulbha@gmail.com"
+      }
+   }
+}

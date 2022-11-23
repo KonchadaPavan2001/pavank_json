@@ -1,0 +1,14 @@
+# IRL (JPDB Index Retrieval Language) - To retrieve Json data.
+
+Http method : POST
+Base url : http://api.login2explore.com:5577
+End-point url : /api/irl
+{
+    "token": "90938016|-31949265955242338|90953343",
+    "cmd": "GET",
+    "dbName": "Student",
+    "rel": "Student_details",
+    "jsonStr": {
+        "id": "39130235",
+    }
+}
